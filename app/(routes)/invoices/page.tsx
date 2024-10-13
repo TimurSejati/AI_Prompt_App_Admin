@@ -4,13 +4,13 @@ import Heading from "@/utils/Heading";
 import AllInvoices from "@/components/Admin/AllInvoices";
 import { getAllInvoices } from "@/actions/invoices/getAllInvoices";
 
-const Page= async () => {
+const Page = async () => {
   const data = await getAllInvoices();
 
   return (
     <div>
       <Heading
-        title="Becodemy - Admin"
+        title="AIPrompt - Admin"
         description="Becodemy is a platform for students to learn and get help from teachers"
         keywords="Programming,MERN,Redux,Machine Learning"
       />
